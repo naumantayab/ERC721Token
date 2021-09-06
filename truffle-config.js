@@ -28,8 +28,6 @@ const infuraKey = process.env["INFURA_KEY"];
 // const mnemonic = fs.readFileSync(".secret").toString().trim();
 const mnemonic = process.env["PRIVATE_KEY"];
 
-// const mnemonic =
-// 	"7443af17d37f34d31e9dbe290ae5134cc2d1364612ba9ad3859aed02e7986bb0";
 module.exports = {
 	/**
 	 * Networks define how you connect to your ethereum client and let you set the
